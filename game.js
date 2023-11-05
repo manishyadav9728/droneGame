@@ -1,10 +1,9 @@
 let app = new PIXI.Application({ width: 600, height: 600,backgroundColor: 0x607e5b});
 document.body.prepend(app.view);
 globalThis.__PIXI_APP__ = app;
-let flyDrone = PIXI.Sprite.from(https://github.com/manishyadav9728/droneGame/blob/main/drone.png);
+let flyDrone = PIXI.Sprite.from("https://github.com/manishyadav9728/droneGame/blob/main/drone.png");
 flyDrone.anchor.set(0.5);
-let bomb = PIXI.Sprite.from('assets/bomb.png');
-let bombEffect = PIXI.Sprite.from('assets/bombEffect.png');
+let bomb = PIXI.Sprite.from("https://github.com/manishyadav9728/droneGame/blob/main/bomb.png")
 
 
 let planeContainer = new PIXI.Container();
